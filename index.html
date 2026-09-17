@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ImaChizzle VR</title>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script> 
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+</head>
+<!-- This is the main body of the website- ALL your content goes AFTER the <body> tag and before the </body> tag -->
+<body>
+<!--Enviroment :3-->
+<a-scene>
+<!--Assets-->
+<a-assets>
+<ing id="wall8" src="images/Hibiscus.jpg" title=""></ing>  
+</a-assets>
+<a-entity environment="preset:forest;dressingAmount:1;skyColor:Black"></a-entity>
+<!--Museum Start-->
+<a-box id="wall1" position="-6 0 0 " color="#E3CB52" scale="12 18 1"></a-box>
+<a-box id="wall2" position="3 0 0 " color="#E3CB52" scale="10 18 1"></a-box>
+<a-box id="wall3" position="0 0 0 " color="#E3CB52" scale="1 18 10"></a-box>
+<a-box id="wall4" position="50 0 0 " color="#E3CB52" scale="1 18 100"></a-box>
+<a-box id="wall5" position="0 0 50 " color="#E3CB52" scale="100 18 1"></a-box>
+<a-box id="wall6" position="0 0 -50 " color="#E3CB52" scale="100 18 1"></a-box>
+<a-box id="wall7" position="-50 0 0 " color="#E3CB52" scale="1 18 100"></a-box>
+<a-box id="wall8" position="-19 0 20 " color="#E3CB52" scale="10 18 1"></a-box>
+<a-box id="wall9" position="-19 0 20 " color="#E3CB52" scale="1 18 15"></a-box>
+<a-box id="wall10" position="19 0 -20 " color="#E3CB52" scale="1 18 10"></a-box>
+<a-box id="wall11" position="9 0 12 " color="#E3CB52" scale="2 18 25"></a-box>
+<a-box id="wall12" position="-31 0 -23 " color="#E3CB52" scale="16 18 1"></a-box>
+<a-box id="wall13" position="30 0 -29 " color="#E3CB52" scale="16 18 1"></a-box>
+<a-box id="wall14" position="-12 0 -11 " color="#E3CB52" scale="1 18 16"></a-box>
+<a-box id="wall15" position="-31 0 -11 " color="#E3CB52" scale="1 18 16"></a-box>
+<a-box id="wall16" position="21 0 29 " color="#E3CB52" scale="16 18 1"></a-box>
+
+
+<!-- Museum floor starts here -->
+ <a-cylinder id="roof1" position="0 0 0" radius="80" color="#AD9F36" height="3"></a-cylinder>
+ <a-cylinder id="floor1" position="0 9 0" radius="80" color="#AD9F36" height="2"></a-cylinder>
+ <a-cylinder id="light1" position="12 9 0" radius="1" color="white" height="2.2"></a-cylinder>
+ <a-cylinder id="light2" position="-14 9 7" radius="1" color="white" height="2.2"></a-cylinder>
+ <a-cylinder id="light3" position="21 9 12" radius="1" color="white" height="2.2"></a-cylinder>
+ <a-cylinder id="light4" position="14 9 -12" radius="1" color="white" height="2.2"></a-cylinder>
+ <a-cylinder id="light5" position="7 9 -12" radius="1" color="white" height="2.2"></a-cylinder>
+ <a-cylinder id="light6" position="0 9 -12" radius="1" color="white" height="2.2"></a-cylinder>
+ <a-cylinder id="light7" position="-18 9 -12" radius="1" color="white" height="2.2"></a-cylinder>
+ <a-cylinder id="light8" position="18 9 0" radius="1" color="white" height="2.2"></a-cylinder>
+ <a-cylinder id="light9" position="27 9 12" radius="1" color="white" height="2.2"></a-cylinder>
+ <a-cylinder id="light10" position="-21 9 31" radius="1" color="white" height="2.2"></a-cylinder>
+ <a-cylinder id="light11" position="-13 9 31" radius="1" color="white" height="2.2"></a-cylinder>
+ <a-cylinder id="light12" position="-6 9 31" radius="1" color="white" height="2.2"></a-cylinder>
+ <a-cylinder id="light13" position="1 9 31" radius="1" color="white" height="2.2"></a-cylinder>
+ <a-cylinder id="light14" position="9 9 31" radius="1" color="white" height="2.2"></a-cylinder>
+ <a-cylinder id="light15" position="17 9 31" radius="1" color="white" height="2.2"></a-cylinder>
+ <a-cylinder id="light16" position="-36 9 -31" radius="1" color="white" height="2.2"></a-cylinder>
+  <a-cylinder id="light17" position="-28 9 -31" radius="1" color="white" height="2.2"></a-cylinder>
+  <a-cylinder id="light18" position="-21 9 -31" radius="1" color="white" height="2.2"></a-cylinder>
+  <a-cylinder id="light19" position="-14 9 -31" radius="1" color="white" height="2.2"></a-cylinder>
+  <a-cylinder id="light20" position="-7 9 -31" radius="1" color="white" height="2.2"></a-cylinder>
+  <a-cylinder id="light21" position="0 9 -31" radius="1" color="white" height="2.2"></a-cylinder>
+  <a-cylinder id="light22" position="7 9 -31" radius="1" color="white" height="2.2"></a-cylinder>
+  <a-cylinder id="light23" position="14 9 -31" radius="1" color="white" height="2.2"></a-cylinder>
+  <a-cylinder id="light24" position="21 9 -31" radius="1" color="white" height="2.2"></a-cylinder>
+  <a-cylinder id="light25" position="28 9 -31" radius="1" color="white" height="2.2"></a-cylinder>
+  <a-cylinder id="light26" position="35 9 -31" radius="1" color="white" height="2.2"></a-cylinder>
+  <a-cylinder id="light27" position="42 9 -31" radius="1" color="white" height="2.2"></a-cylinder>
+  <a-cylinder id="light28" position="49 9 -31" radius="1" color="white" height="2.2"></a-cylinder>
+</a-scene>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
